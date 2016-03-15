@@ -15,6 +15,6 @@ FREQ=$(vcgencmd get_config arm_freq | cut -d '=' -f 2)
 echo TEMP: $TEMP
 echo FREQ: $FREQ
 echo CORE: $VOLTS_CORE
-echo SDRAM CTRL: $VOLTS_SDRAM_C
+echo SDRAM CTL: $VOLTS_SDRAM_C
 echo SDRAM I/O: $VOLTS_SDRAM_I
 echo SDRAM MEM: $VOLTS_SDRAM_P
